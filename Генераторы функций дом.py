@@ -32,7 +32,7 @@ def multiply_def(x, y):
 print(multiply_def(2,4))
 
 
-class Repeater:
+class Rect:
    def __init__(self, a, b):
        self.a = a
        self.b = b
@@ -41,6 +41,6 @@ class Repeater:
        return self.a * self.b
 
 
-repeat_five = Repeater( 2 , 4)
+repeat_five = Rect( 2 , 4)
 print(f'стороны: {repeat_five.a} и {repeat_five.b}')
 print(f'площадь: {repeat_five()}')
